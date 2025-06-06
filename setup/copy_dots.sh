@@ -25,21 +25,21 @@ sleep 1
 cp -f "$DOTFILES/config/zsh/.zshrc" "$HOME/.zshrc"
 sleep 2
 echo "${green}[+] Copiando $DOTFILES/config/zsh/custom.zsh => $HOME/.config/zsh/${reset}"
-cp "$DOTFILES/config/zsh/custom.zsh" "$HOME/.config/zsh/"
+cp -f "$DOTFILES/config/zsh/custom.zsh" "$HOME/.config/zsh/"
 
 echo "${green}[+] Copiando $DOTFILES/config/zsh/alias.zsh => $HOME/.config/zsh/${reset}"
-cp "$DOTFILES/config/zsh/alias.zsh" "$HOME/.config/zsh/"
+cp -f "$DOTFILES/config/zsh/alias.zsh" "$HOME/.config/zsh/"
 
 echo "${green}[+] Copiando $DOTFILES/config/zsh/functions.zsh => $HOME/.config/zsh/${reset}"
-cp "$DOTFILES/config/zsh/functions.zsh" "$HOME/.config/zsh/"
+cp -f "$DOTFILES/config/zsh/functions.zsh" "$HOME/.config/zsh/"
 echo "${green}[+] Copiando $DOTFILES/config/zsh/.zprofile => $HOME/.zprofile${reset}"
-cp "$DOTFILES/config/zsh/.zprofile" "$HOME/.zprofile"
+cp -f "$DOTFILES/config/zsh/.zprofile" "$HOME/.zprofile"
 
 # git
 echo "${yellow}[+] Copiando dotfiles git${reset}"
 sleep 1
 echo "${green}[+] Copiando $DOTFILES/config/git/.gitconfig => $HOME/.gitconfig${reset}"
-cp "$DOTFILES/config/git/.gitconfig" "$HOME/.gitconfig"
+cp -f "$DOTFILES/config/git/.gitconfig" "$HOME/.gitconfig"
 
 # alacritty
 echo "${yellow}[+] Copiando dotfiles alacritty${reset}"
@@ -47,7 +47,7 @@ sleep 1
 # cria diretorio se nao existir
 [ ! -d "$HOME/.config/alacritty" ] && mkdir -p "$HOME/.config/alacritty"
 echo "${green}[+] Copiando $DOTFILES/config/alacritty.yml => $HOME/.config/alacritty/${reset}"
-cp "$DOTFILES/config/alacritty.yml" "$HOME/.config/alacritty/"
+cp -f "$DOTFILES/config/alacritty.yml" "$HOME/.config/alacritty/"
 
 # wezterm
 echo "${yellow}[+] Copiando dotfiles alacritty${reset}"
@@ -55,7 +55,7 @@ sleep 1
 # cria diretorio se nao existir
 [ ! -d "$HOME/.config/wezterm" ] && mkdir -p "$HOME/.config/wezterm"
 echo "${green}[+] Copiando $DOTFILES/config/wezterm.lua => $HOME/.config/wezterm/${reset}"
-cp "$DOTFILES/config/wezterm.lua" "$HOME/.config/wezterm/"
+cp -f "$DOTFILES/config/wezterm.lua" "$HOME/.config/wezterm/"
 
 # neovim
 echo "${yellow}[+] Copiando neovim${reset}"
@@ -69,8 +69,8 @@ echo "${yellow}[+] Copiando tmux${reset}"
 sleep 1
 # cria diretorio se nao existir
 [ ! -d "$HOME/.local/bin" ] && mkdir $HOME/.local/bin
-cp "$DOTFILES/config/tmux/.tmux.conf" "$HOME/.tmux.conf"
-cp "$DOTFILES/config/tmux/tmux-sessionizer" "$HOME/.local/bin"
+cp -f "$DOTFILES/config/tmux/.tmux.conf" "$HOME/.tmux.conf"
+cp -f "$DOTFILES/config/tmux/tmux-sessionizer" "$HOME/.local/bin"
 
 # Custom nuclei templates
 echo "${yellow}[+] Copiando nuclei templates${reset}"
