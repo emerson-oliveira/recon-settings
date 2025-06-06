@@ -75,6 +75,11 @@ install_tool "alterx" "github.com/projectdiscovery/alterx/cmd/alterx"
 install_tool "katana" "github.com/projectdiscovery/katana/cmd/katana"
 install_tool "sourcemapper" "https://github.com/denandz/sourcemapper"
 
+git clone https://github.com/cgboal/sonarsearch.git
+cd sonarsearch/cmd/crobat
+go build -o crobat
+sudo mv crobat /usr/local/bin/
+
 declare -A repos
 repos["gf"]="tomnomnom/gf"
 repos["Gf-Patterns"]="1ndianl33t/Gf-Patterns"
