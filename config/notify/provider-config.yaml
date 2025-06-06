@@ -1,0 +1,36 @@
+discord:
+  - id: "nuclei"
+    discord_channel: "nuclei"
+    discord_username: "bot-recon"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1178524506621476884/BIT5k264mwme7XAlk8GfOUbbZksrtSdpIU3QTAZXzgjCxuAPG0SYALGABEMPY53XYV1G"
+
+  - id: "xss"
+    discord_channel: "xss"
+    discord_username: "bot-recon"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1178525110047604838/IamO_nECFR74imevHlC3vRTcKffM55mk19IElkzhr7-tyjtxie0J4pA44-oHxmOa5wvk"
+
+  - id: "api"
+    discord_channel: "xss"
+    discord_username: "bot-recon"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1178525360229457960/e_9k376PSHeYmV3JbMFqlJ2zS8ARtDmwejAw_hObcF5lxTEmfh7bkIH43pPPIBy5AueR"
+
+  - id: "subs"
+    discord_channel: "xss"
+    discord_username: "bot-recon"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1178525532401438770/Mx9b-8H2TWuCkdOPFhIY_8uyRYWei2C6kMOuJwxKFG8rHjsPKzldC3_Jg1PXQMhO_Thp"
+
+  - id: "wordpress"
+    discord_channel: "wordpress"
+    discord_username: "bot-recon"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1196304233629229076/cv8AAWFYpvjSiE07HCKNtxeIuidaJRUfg5KtWn2rVgIqIxjYp1As2nv_IDgwoGtyuiRP"
+
+  - id: "alvo"
+    discord_channel: "alvo"
+    discord_username: "bot-recon"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1196304385165238395/VPfMrFUgZdYXfOseZVmsFadGBCC-VDf-qBiwe0ODTrmDq626Yc6nJwK137nvGu7Rd00r"

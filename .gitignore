@@ -1,0 +1,11 @@
+db
+mongodb/db
+mongodb/docker-compose.yml
+docker-compose.yml
+.secrets.toml
+mongodb/.secrets.toml
+settings.toml
+mongodb/settings.toml
+mongodb/__pycache__/
+mongodb/resume.cfg
+.vscode
